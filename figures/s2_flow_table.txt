@@ -1,0 +1,11 @@
+                                        subsonic                         transonic                        supersonic
+equation                             (3a) linear                          (3b) TSD                       (3a) linear
+flux x                                   central                            switch                          backward
+flux y                                   central                           central                           central
+switch                            none (central)  Murman: A>0 central/A<0 backward                   none (backward)
+A (x=0)                                    phi=0                             phi=0                    phi=0, phi_x=0
+B (y=ymax)                               phi_y=0                           phi_y=0                           phi_y=0
+C (x=xmax)                               phi_x=0                           phi_x=0                              none
+D (y=0)                                  phi_y=0                           phi_y=0                           phi_y=0
+E (airfoil)                       phi_y=U dys/dx                    phi_y=U dys/dx                    phi_y=U dys/dx
+solver                                    direct                   direct + Newton                            direct

@@ -1,0 +1,21 @@
+# Python virtual environment
+.venv/
+venv/
+
+# PDFs (figures, report, statement)
+*.pdf
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.svg
+*.eps
+
+# Python cache
+__pycache__/
+*.pyc
